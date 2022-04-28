@@ -1,0 +1,299 @@
+.main-body {
+  text-align: center;
+  margin: 0;
+  background: url(../resurses/animeback2.png);
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Arial;
+}
+
+.main-h1 {
+  background: url(../resurses/font3.png);
+  position: absolute;
+  font-size: 30px;
+  width: 1012px;
+  height: 50px;
+  margin: 0 auto;
+  top: 550px;
+  font-weight: 900px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #ebe1d5;
+  padding-top: 0px;
+  text-shadow:
+    -0 -1px 0 #000000,
+    0 -1px 0 #000000,
+    -0 1px 0 #000000,
+    0 1px 0 #000000,
+    -1px -0 0 #000000,
+    1px -0 0 #000000,
+    -1px 0 0 #000000,
+    1px 0 0 #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
+
+.main-b {
+  color: #fa5151;
+  text-decoration: none;
+}
+
+.second-body {
+  background-color: #008B8B;
+}
+
+#table {
+  background-color: #ffffff;
+}
+
+#TrapMenu {
+  background-color: #2F4F4F;
+  width: 122px;
+  height: 100px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#h1Trap {
+  margin: 0px;
+  color: red;
+}
+
+p b {
+  color: red;
+}
+
+.menuT {
+  border: 1px solid rgb(255, 0, 0);
+}
+
+.hed {
+  width: 100%;
+  background-color: #D5DB93;
+  float: left;
+  margin-bottom: 13px;
+}
+
+.menu {
+  float: right;
+  width: 50%;
+  padding-right: 15px;
+  position: relative;
+  top: 35px;
+}
+
+a.nubex {
+  color: #fff;
+  user-select: none;
+  text-decoration: none;
+  outline: none;
+  background-color: #DB9D93;
+  padding: 18px 1em;
+  float: right;
+  height: 1px;
+  margin: 1px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #C4847A;
+}
+
+a.nubex:active {
+  background-color: #7f8a8f;
+}
+
+a.nubex:hover {
+  background-color: #443a4f;
+}
+
+.anime {
+  color: #ffffff;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  margin: 5px;
+  float: left;
+  font-size: 4em;
+  border: 10px solid #A42AB0;
+  border-radius: 0 20px;
+  background-color: #DE4379;
+}
+
+.foot {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.con-1 {
+  width: 100%;
+  max-width: 1024px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.d1-1 {
+  width: 100%;
+}
+
+.d1-2 {
+  text-align: justify;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.d1-3 {
+  float: left;
+  width: 55%;
+  padding: 8px;
+}
+
+.d1-4 {
+  float: right;
+  width: 40%;
+}
+
+.d1-5 {
+  text-align: justify;
+  margin: 10px;
+}
+
+#d2012 {
+  background-color: #a70606;
+}
+
+#d2012:active {
+  background-color: #8c2008;
+}
+
+#d2012:hover {
+  background-color: rgb(110, 32, 53);
+}
+
+hr {
+  color: #DE4379;
+  background-color: #DE4379;
+  height: 5px;
+  border: none;
+}
+
+.sosial {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+
+.dtext {
+  float: left;
+}
+
+.d2-1 {
+  float: left;
+  width: 42%;
+}
+
+.d2-2 {
+  text-align: justify;
+  margin: 10px;
+}
+
+.d2-3 {
+  float: right;
+  width: 55%;
+  padding: 8px;
+}
+
+.d3-1 {
+  float: left;
+  width: 55%;
+  padding: 8px;
+}
+
+.d3-2 {
+  float: right;
+  width: 45%;
+  width: 40%;
+}
+
+.d3-3 {
+  text-align: justify;
+  margin: 10px;
+}
+
+.tab1 {
+  float: right;
+}
+
+.tab2 {}
+
+.dfoot {
+  width: 100%;
+  max-width: 1024px;
+  /*максимальная ширина может иметь другое значение*/
+  padding: 0 15px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #D5DB93;
+}
+
+.dtext {
+  background-color: #e3e99a;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.imienaz {
+  float: left;
+  width: 30%;
+  text-align: left;
+  padding:
+}
+
+.twojjak {
+  float: right;
+  text-align: left;
+}
+
+.ilea {
+  float: left;
+  text-align: left;
+  width: 100%;
+}
+
+.masz {
+  background-color: rgba(241, 174, 41, 0.68);
+  width: 100px;
+  height: 50px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-div {
+  min-height: calc(100vh - 80px);
+}
+
+.wyslij {
+  float: left;
+  font-size: 20px;
+  width: 100px;
+  height: 50px;
+}

@@ -1,0 +1,216 @@
+.body-second {
+  background-color: #171717;
+  margin: 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+}
+
+#h1 {
+  color: #ffffff;
+  text-shadow: red 1px 3px, blue 3px 1px;
+  font-family: Arial;
+  margin: 0px;
+}
+
+.p1 {
+  color: #FFFFFF;
+  font-family: fantasy;
+  text-align: justify;
+  float: right;
+}
+
+.hed {
+  width: 100%;
+  background-color: #3b2541;
+  float: left;
+  margin-bottom: 13px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  /*максимальная ширина может иметь другое значение*/
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.menu {
+  float: right;
+  width: 50%;
+  padding-right: 15px;
+  position: relative;
+  top: 35px;
+}
+
+a.nubex {
+  color: #fff;
+  user-select: none;
+  /* Убираем текстовое выделение */
+  text-decoration: none;
+  /* Убираем подчеркивание */
+  outline: none;
+  /* Убираем контур вокруг ссылки */
+  background-color: #DB9D93;
+  /* Цвет фона */
+  padding: 18px 1em;
+  /* Отступ от текста до рамки */
+  float: right;
+  height: 1px;
+  margin: 1px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #C4847A;
+}
+
+a.nubex:active {
+  background-color: #7f8a8f;
+  /* Цвет кнопки при нажатии */
+}
+
+a.nubex:hover {
+  background-color: #443a4f;
+  /* Цвет кнопки при наведении курсора */
+}
+
+.anime {
+  color: #ffffff;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  margin: 5px;
+  float: left;
+  font-size: 4em;
+  border: 10px solid #A42AB0;
+  border-radius: 0 20px;
+  background-color: #DE4379;
+}
+
+.con-1 {
+  width: 100%;
+  max-width: 1024px;
+  /*максимальная ширина может иметь другое значение*/
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.dtext {
+  float: left;
+}
+
+.dfoot {
+  width: 1024px;
+  /*максимальная ширина может иметь другое значение*/
+  padding: 0 15px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.main-b {
+  color: #ff7c7c;
+  text-decoration: none;
+}
+
+.sosial {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+
+#d2012 {
+  background-color: #a70606;
+}
+
+#d2012:active {
+  background-color: #8c2008;
+}
+
+#d2012:hover {
+  background-color: rgb(110, 32, 53);
+}
+
+.img1 {}
+
+.img {
+  width: 1024px;
+  padding: 5px;
+}
+
+hr {
+  color: #DE4379;
+  /* Цвет линии для остальных браузеров */
+  background-color: #DE4379;
+  /* Цвет линии для браузера Firefox и Opera */
+  height: 5px;
+  /* Толщина линии */
+  border: none;
+}
+
+.dvid1 {
+  float: left;
+  width: 55%;
+  padding: 8px;
+}
+
+.main-div {
+  min-height: calc(100vh - 80px);
+}
+
+.dtext1 {
+  text-align: justify;
+}
+
+.dzag1 {
+  float: right;
+  width: 45%;
+  width: 40%;
+}
+
+.boh1 {
+  padding: 8px;
+  float: left;
+  margin: 7px;
+  text-align: justify;
+  background-color: #3b2541;
+  max-width: 225px;
+  height: 550px;
+}
+
+.boh2 {
+  padding: 8px;
+  float: right;
+  margin: 7px;
+  text-align: justify;
+  background-color: #3b2541;
+  max-width: 225px;
+  height: 550px;
+}
+
+.boh3 {
+  padding: 8px;
+  float: left;
+  margin: 7px;
+  text-align: justify;
+  background-color: #3b2541;
+  max-width: 225px;
+  height: 550px;
+}
+
+.boh4 {
+  padding: 8px;
+  float: left;
+  margin: 7px;
+  text-align: justify;
+  background-color: #3b2541;
+  max-width: 225px;
+  height: 550px;
+}
+
+a {
+  color: #ff7c7c;
+  text-decoration: none;
+}
+
+#p {
+  text-shadow: red 1px 3px, blue 3px 1px;
+}
