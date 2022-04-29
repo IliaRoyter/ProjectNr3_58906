@@ -7,6 +7,7 @@
 	<title>Tabela</title>
 	<link rel="stylesheet" href="style/main-style.css">
 	<link rel="shortcut icon" href="resurses/anime2.ico" type="image/x-icon">
+	<script src="../js/kalkulator.js"></script>
 </head>
 
 <body class="main-body">
@@ -26,66 +27,24 @@
 	<div class="main-div">
 
 		<div class="con-1">
-			<div class="tab1">
-				<table border="1" id="table">
-					<tr>
-						<th colspan="2">Najleprze anime na zimę 2022</th>
-					</tr>
-					<tr>
-						<th>1</th>
-						<td>kimetsu no yaiba: yuukaku-hen</td>
-					</tr>
-					<tr>
-						<th>2</th>
-						<td>attack on titan</td>
-					</tr>
-					<tr>
-						<th>3</th>
-						<td>sono bisque doll wa koi wo suru</td>
-					</tr>
-				</table>
-			</div>
-			<div class="tab2">
-				<table border="1" style="  background-color: #ffffff;">
-					<tbody>
-						<tr>
-							<td>anime</td>
-							<td>anime</td>
-							<td>anime</td>
-							<td>anime</td>
-							<td>anime</td>
-						</tr>
-						<tr>
-							<td>anime</td>
-							<td>anime</td>
-							<td>anime</td>
-							<td>anime</td>
-							<td>anime</td>
-						</tr>
-						<tr>
-							<td>anime</td>
-							<td>anime</td>
-							<td>anime</td>
-							<td>anime</td>
-							<td>anime</td>
-						</tr>
-						<tr>
-							<td>anime</td>
-							<td>anime</td>
-							<td>anime</td>
-							<td>anime</td>
-							<td>anime</td>
-						</tr>
-						<tr>
-							<td>anime</td>
-							<td>anime</td>
-							<td>anime</td>
-							<td>anime</td>
-							<td>anime</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
+			<!-- поле ввода первого числа -->
+<input id="num1" />
+
+<!-- блок с кнопками -->
+<div id="operator_btns">
+	<button id="plus" onclick="op='+'">+</button>
+  <button id="minus" onclick="op='-'">-</button>
+  <button id="times" onclick="op='*'">x</button>
+  <button id="divide" onclick="op='/'">:</button>
+</div>
+
+<!-- поле ввода второго числа -->
+<input id="num2" />
+<br>
+
+<!-- кнопка для рассчётов -->
+<button onclick="func()">Посчитать</button>
+<p id="result"></p>
 		</div>
 	</div>
 	<footer class="foot">
