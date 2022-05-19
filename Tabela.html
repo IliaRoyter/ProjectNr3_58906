@@ -7,7 +7,7 @@
 	<title>Tabela</title>
 	<link rel="stylesheet" href="style/main-style.css">
 	<link rel="shortcut icon" href="resurses/anime2.ico" type="image/x-icon">
-	<script src="../js/kalkulator.js"></script>
+	<script src="../js/Game.js"></script>
 </head>
 
 <body class="main-body">
@@ -16,7 +16,7 @@
 			<menu class="menu">
 				<a href="Zima2012.html" class="nubex" id="d2012">2012</a>
 				<a href="Formularz.html" class="nubex">Formularz</a>
-				<a href="Tabela.html" class="nubex">Tabela</a>
+				<a href="Tabela.html" class="nubex">Game</a>
 				<a href="index.html" class="nubex">Strona glówna</a>
 			</menu>
 			<div class="anime">
@@ -24,29 +24,51 @@
 			</div>
 		</div>
 	</header>
-	<div class="main-div">
-
-		<div class="con-1">
-			<!-- поле ввода первого числа -->
-<input id="num1" />
-
-<!-- блок с кнопками -->
-<div id="operator_btns">
-	<button id="plus" onclick="op='+'">+</button>
-  <button id="minus" onclick="op='-'">-</button>
-  <button id="times" onclick="op='*'">x</button>
-  <button id="divide" onclick="op='/'">:</button>
-</div>
-
-<!-- поле ввода второго числа -->
-<input id="num2" />
-<br>
-
-<!-- кнопка для рассчётов -->
-<button onclick="func()">Посчитать</button>
-<p id="result"></p>
+	<h2>Game: krestiki noliki</h2>
+		<div id="game">
+			<div class="table">
+				<table cellpadding="0" cellspacing="0">
+					<tr>
+						<td>
+							<div class="inner"></div>
+						</td>
+						<td>
+							<div class="inner"></div>
+						</td>
+						<td>
+							<div class="inner"></div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="inner"></div>
+						</td>
+						<td>
+							<div class="inner"></div>
+						</td>
+						<td>
+							<div class="inner"></div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="inner"></div>
+						</td>
+						<td>
+							<div class="inner"></div>
+						</td>
+						<td>
+							<div class="inner"></div>
+						</td>
+					</tr>
+				</table>
+				<div class="winning"></div>
+			</div>
+			<div id="win_block">
+				<span class="winner"></span>
+				<span class="again">Zagraj ponownie!</span>
+			</div>
 		</div>
-	</div>
 	<footer class="foot">
 		<div class="dfoot">
 			<div class="dtext">
